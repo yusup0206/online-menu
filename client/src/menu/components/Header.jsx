@@ -19,6 +19,11 @@ const Header = (props) => {
     }
   };
 
+  const handleGoBack = () => {
+    navigate(-1);
+    window.scroll(0, 0);
+  };
+
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -35,7 +40,7 @@ const Header = (props) => {
               <div className="">
                 {location.pathname.includes("/home") ? null : (
                   <button
-                    onClick={() => navigate(-1)}
+                    onClick={handleGoBack}
                     className="mr-auto w-10 h-10 flex items-center justify-center rounded-md border-2 border-white text-white text-sm md:text-base font-semibold active:bg-white md:hover:bg-white active:text-primary md:hover:text-primary transition-all cursor-pointer"
                   >
                     <svg

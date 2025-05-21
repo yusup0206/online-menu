@@ -15,8 +15,6 @@ const Footer = (props) => {
     return null;
   }
 
-  console.log(location);
-
   return (
     <footer className="bg-primary">
       <div className="container">
