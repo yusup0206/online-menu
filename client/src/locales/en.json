@@ -1,0 +1,75 @@
+{
+  "select_lang": "Select a language",
+
+  "categories": "Categories",
+  "create_category": "Create category",
+  "update_category": "Update category",
+
+  "products": "Products",
+  "create_product": "Create product",
+  "update_product": "Update product",
+
+  "banners": "Banners",
+  "create_banner": "Create banner",
+  "update_banner": "Update banner",
+
+  "users": "Users",
+  "create_user": "Create user",
+  "update_user": "Update user",
+
+  "create_information": "Create Information",
+  "update_information": "Update Information",
+
+  "login": "Login",
+  "admin_login": "Admin Login",
+
+  "username": "Username",
+  "password": "Password",
+  "name": "Name",
+  "image": "Image",
+  "position": "Position",
+  "status": "Status",
+  "actions": "Actions",
+  "name_en": "Name EN",
+  "name_ru": "Name RU",
+  "name_tm": "Name TM",
+  "description": "Description",
+  "description_en": "Description EN",
+  "description_ru": "Description RU",
+  "description_tm": "Description TM",
+  "price": "Price",
+  "category": "Category",
+  "link": "Link",
+  "new_password": "New Password",
+  "active": "Active",
+  "passive": "Passive",
+
+  "back": "Back",
+  "submit": "Submit",
+  "update": "Update",
+
+  "no_banners": "There are no banners",
+  "no_categories": "There is no categories",
+  "no_products": "There is no products",
+  "no_users": "There is no users",
+
+  "phone": "Phone",
+  "address": "Address",
+  "address_link": "Address Link",
+  "logo": "Logo",
+
+  "welcome": "Welcome",
+  "created": "Created successfully",
+  "updated": "Updated successfully",
+  "deleted": "Deleted successfully",
+
+  "banner_question": "Are you sure you want to delete this banner?",
+  "category_question": "Are you sure you want to delete this category?",
+  "product_question": "Are you sure you want to delete this product?",
+  "user_question": "Are you sure you want to delete this user?",
+
+  "information": "Information",
+
+  "load_more": "Load more",
+  "social_media": "Social media"
+}

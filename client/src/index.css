@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00643a;
+  --color-secondary: #1a734e;
+  --color-textColor: #000;
+  --color-bgColor: oklch(0.985 0.002 247.839);
+  --color-lazyBg: #c2c3c5;
+}
+
+html {
+  /* font-family: "Inter", serif; */
+  font-family: "Montserrat", serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply max-w-5xl w-full mx-auto;
+}
+
+label[required]::after {
+  content: " *";
+  color: var(--color-primary);
+}
+
+.swiper-button-next {
+  width: 32px;
+  height: 32px;
+  background: var(--color-primary);
+  border-radius: 6px;
+  color: white !important;
+  transition: 0.3s all ease;
+}
+
+.swiper-button-next:after {
+  font-size: 12px !important;
+}
+
+.swiper-button-next:hover {
+  background: var(--color-secondary);
+  transition: 0.3s all ease;
+}
+
+.swiper-button-prev {
+  width: 32px;
+  height: 32px;
+  background: var(--color-primary);
+  border-radius: 6px;
+  color: white !important;
+  transition: 0.3s all ease;
+}
+
+.swiper-button-prev:after {
+  font-size: 12px !important;
+}
+
+.swiper-button-prev:hover {
+  background: var(--color-secondary);
+  transition: 0.3s all ease;
+}
+
+.btn {
+  @apply w-fit text-sm font-semibold py-2 px-4 rounded-sm cursor-pointer text-gray-500 bg-gray-200 active:bg-gray-200/95 md:hover:bg-gray-200/95 transition-all;
+}
+
+.btn-primary {
+  @apply text-white bg-primary active:bg-primary/95 md:hover:bg-primary/95 transition-all;
+}
+
+.btn-danger {
+  @apply text-white bg-red-500 active:bg-red-500/95 md:hover:bg-red-500/95 transition-all;
+}
+
+.box {
+  @apply p-4 bg-white rounded-sm shadow-md;
+}
+
+input[type="file"] {
+  padding: 0px;
+  /* border: 2px dashed grey;
+  background-color: #fff; */
+  height: 44px;
+}
+
+input[type="file"]::file-selector-button {
+  width: fit-content;
+  height: 100%;
+  border-width: 0;
+  font-size: 14px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-weight: semibold;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  margin-right: 1em;
+  padding: 6px;
+}

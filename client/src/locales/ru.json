@@ -1,0 +1,75 @@
+{
+  "select_lang": "Выберите язык",
+
+  "categories": "Категории",
+  "create_category": "Создать категорию",
+  "update_category": "Обновить категорию",
+
+  "products": "Продукты",
+  "create_product": "Создать продукт",
+  "update_product": "Обновить продукт",
+
+  "banners": "Баннеры",
+  "create_banner": "Создать баннер",
+  "update_banner": "Обновить баннер",
+
+  "users": "Пользователи",
+  "create_user": "Создать пользователя",
+  "update_user": "Обновить пользователя",
+
+  "create_information": "Создать информацию",
+  "update_information": "Обновить информацию",
+
+  "login": "Авторизоваться",
+  "admin_login": "Вход администратора",
+
+  "username": "Имя пользователя",
+  "password": "Пароль",
+  "name": "Имя",
+  "image": "Изображение",
+  "position": "Позиция",
+  "status": "Статус",
+  "actions": "Действия",
+  "name_en": "Имя EN",
+  "name_ru": "Имя RU",
+  "name_tm": "Имя TM",
+  "description": "Описание",
+  "description_en": "Описание EN",
+  "description_ru": "Описание RU",
+  "description_tm": "Описание TM",
+  "price": "Цена",
+  "category": "Категория",
+  "link": "Ссылка",
+  "new_password": "Новый пароль",
+  "active": "Активный",
+  "passive": "Пассивный",
+
+  "back": "Назад",
+  "submit": "Oтправить",
+  "update": "Обнавит",
+
+  "no_banners": "Баннеров нет",
+  "no_categories": "Нет категорий",
+  "no_products": "Нет товаров",
+  "no_users": "Нет пользователей",
+
+  "phone": "Телефон",
+  "address": "Адрес",
+  "address_link": "Ссылка на адрес",
+  "logo": "Логотип",
+
+  "welcome": "Добро пожаловать",
+  "created": "Создано успешно",
+  "updated": "Обновлено успешно",
+  "deleted": "Удален успешно",
+
+  "banner_question": "Вы уверены, что хотите удалить этот баннер?",
+  "category_question": "Вы уверены, что хотите удалить эту категорию?",
+  "product_question": "Вы уверены, что хотите удалить этот продукт?",
+  "user_question": "Вы уверены, что хотите удалить этого пользователя?",
+
+  "information": "Информация",
+
+  "load_more": "Загрузить больше",
+  "social_media": "Социальные сети"
+}

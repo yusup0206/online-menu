@@ -1,0 +1,75 @@
+{
+  "select_lang": "Dil saýlaň",
+
+  "categories": "Kategoriýalar",
+  "create_category": "Kategoriýa dörediň",
+  "update_category": "Kategoriýany täzeläň",
+
+  "products": "Önümler",
+  "create_product": "Önüm dörediň",
+  "update_product": "Önümi täzeläň",
+
+  "banners": "Bannerler",
+  "create_banner": "Banner dörediň",
+  "update_banner": "Banneri täzeläň",
+
+  "users": "Ulanyjylar",
+  "create_user": "Ulanyjy dörediň",
+  "update_user": "Ulanyjyny täzeläň",
+
+  "create_information": "Maglumat dörediň",
+  "update_information": "Maglumatlary täzeläň",
+
+  "login": "Giriş",
+  "admin_login": "Admin Giriş",
+
+  "username": "Ulanyjy ady",
+  "password": "Parol",
+  "name": "Ady",
+  "image": "Surat",
+  "position": "Orny",
+  "status": "Statusy",
+  "actions": "Hereketler",
+  "name_en": "Ady EN",
+  "name_ru": "Ady RU",
+  "name_tm": "Ady TM",
+  "description": "Düşündiriş",
+  "description_en": "Düşündiriş EN",
+  "description_ru": "Düşündiriş RU",
+  "description_tm": "Düşündiriş TM",
+  "price": "Bahasy",
+  "category": "Kategoriýa",
+  "link": "Link",
+  "new_password": "Täze parol",
+  "active": "Aktiw",
+  "passive": "Passiw",
+
+  "back": "Yzyna",
+  "submit": "Iberiň",
+  "update": "Täzele",
+
+  "no_banners": "Banner ýok",
+  "no_categories": "Kategoriýalar ýok",
+  "no_products": "Önüm ýok",
+  "no_users": "Ulanyjy ýok",
+
+  "phone": "Telefon",
+  "address": "Salgy",
+  "address_link": "Salgy Link",
+  "logo": "Logo",
+
+  "welcome": "Hoş geldiňiz",
+  "created": "Üstünlikli döredildi",
+  "updated": "Üstünlikli täzelendi",
+  "deleted": "Üstünlikli pozuldy",
+
+  "banner_question": "Bu banneri pozmak isleýärsiňizmi?",
+  "category_question": "Bu kategoriýany pozmak isleýärsiňizmi?",
+  "product_question": "Bu önümi pozmak isleýärsiňizmi?",
+  "user_question": "Bu ulanyjyny pozmak isleýärsiňizmi?",
+
+  "information": "Maglumat",
+
+  "load_more": "Has köp ýükläň",
+  "social_media": "Sosial mediýa"
+}
